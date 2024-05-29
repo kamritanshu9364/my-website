@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kumar Amritanshu - Automation Engineer</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #1e1e1e;
+            color: #ffffff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #e8491d 3px solid;
+        }
+        header a {
+            color: #ffffff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        header .highlight, header .current a {
+            color: #e8491d;
+            font-weight: bold;
+        }
+        header a:hover {
+            color: #cccccc;
+        }
+        #showcase {
+            min-height: 400px;
+            background: url('https://via.placeholder.com/1500x800?text=Laptop+Workspace') no-repeat 0 -100px;
+            text-align: center;
+            color: #ffffff;
+        }
+        #showcase h1 {
+            margin-top: 100px;
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+        #showcase p {
+            font-size: 20px;
+        }
+        section {
+            padding: 20px 0;
+        }
+        .content {
+            padding: 20px;
+            background: #1e1e1e;
+            margin-bottom: 20px;
+        }
+        .content h2 {
+            color: #e8491d;
+        }
+        .content ul {
+            list-style: none;
+            padding: 0;
+        }
+        .content ul li {
+            background: #333333;
+            padding: 10px;
+            margin-bottom: 5px;
+        }
+        .contact-info {
+            background: #333333;
+            padding: 20px;
+        }
+        .contact-info h2, .contact-info p {
+            margin: 0;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #1e1e1e;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Kumar Amritanshu</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#achievements">Achievements</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="showcase">
+        <div class="container">
+            <h1>Welcome to My Personal Webpage</h1>
+            <p>Dedicated and detail-oriented Automation Engineer</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container content">
+            <h2>About Me</h2>
+            <p>Dedicated and detail-oriented Automation Engineer with over 2 years of hands-on experience in designing, developing, and implementing automated testing solutions. Proficient in Java, Selenium, Maven, TestNG, AutoIt, Jenkins, ReadyAPI, GitHub, SoapUI, and Jira. Adept at collaborating with cross-functional teams to deliver high-quality software solutions.</p>
+        </div>
+    </section>
+
+    <section id="experience">
+        <div class="container content">
+            <h2>Professional Experience</h2>
+            <h3>eGain Communication</h3>
+            <p>Automation Engineer (September 2021 - Present | Pune, India)</p>
+            <ul>
+                <li>Developed and maintained automated test scripts using Java, Selenium WebDriver, and TestNG for web application testing.</li>
+                <li>Implemented Maven to manage project dependencies and streamline the automation testing process.</li>
+                <li>Utilized AutoIt for automating Windows-based applications and handling file uploads in web applications.</li>
+                <li>Integrated automated tests into Jenkins for continuous integration, enabling faster feedback on code changes.</li>
+                <li>Proficient in ReadyAPI tool for API testing, ensuring the reliability and performance of RESTful services.</li>
+                <li>Utilized REST Assured to validate API functionality and ensure data integrity.</li>
+                <li>Collaborated with QA and development teams to identify test scenarios and ensure comprehensive test coverage.</li>
+                <li>Used Jira for test case management, defect tracking, and collaborating with the development team.</li>
+                <li>Managed test data and configurations in Git repositories, using GitHub for version control and collaboration.</li>
+                <li>Conducted regression testing to validate software releases and identify potential issues.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="container content">
+            <h2>Education</h2>
+            <p><strong>National Institute of Science and Technology, Berhampur, Orissa</strong></p>
+            <p>Bachelor of Technology in Electronics and Communication Engineering (August 2017 - September 2021)</p>
+            <ul>
+                <li>Developed and designed electronic systems and circuits for various projects.</li>
+                <li>Utilized various software and tools such as MATLAB, C++, Java, VS Code, and PCB design software.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container content">
+            <h2>Skills</h2>
+            <ul>
+                <li>Automation Tools: Selenium, Postman, SoapUI, ReadyAPI, Rest Assured</li>
+                <li>CI/CD Tools: Jenkins, GitHub</li>
+                <li>Project Management: Jira</li>
+                <li>Cloud Platforms: AWS Gateway System, Azure Directory</li>
+                <li>Build Tools: Maven, TestNG</li>
+                <li>Programming Languages: Java, C++, MATLAB</li>
+                <li>IDEs: Eclipse, VS Code</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="achievements">
+        <div class="container content">
+            <h2>Achievements</h2>
+            <ul>
+                <li>Subject Matter Expert (SME): eGain Communication (May 2022 - Present)</li>
+                <li>Certificate of Appreciation: eGain Communication (May 2023)</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="languages">
+        <div class="container content">
+            <h2>Languages</h2>
+            <ul>
+                <li>English: Full Professional Proficiency</li>
+                <li>Hindi: Full Professional Proficiency</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container contact-info">
+            <h2>Contact Information</h2>
+            <p>Email: kamritanshu9364@gmail.com</p>
+            <p>Phone: +91 91234 27207</p>
+            <p>Location: Pune, India</p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/kumar-amritanshu-a107b4165" target="_blank" style="color: #e8491d;">linkedin.com/in/kumar-amritanshu-a107b4165</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Kumar Amritanshu. All rights reserved.</p>
+    </footer>
+</body>
+</html>
